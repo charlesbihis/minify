@@ -1,0 +1,7 @@
+# Output files
+out/
+dist/
+
+# IntelliJ files
+.idea/
+*.iml
