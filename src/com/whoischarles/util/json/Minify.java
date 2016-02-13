@@ -88,7 +88,7 @@ public class Minify {
    * and line feeds will be removed.  The result will be returned.
    *
    * @param json The JSON string for which to minify
-   * @return A minified, yet identically functional, version of the input JSON string
+   * @return A minified, yet functionally identical, version of the input JSON string
    */
   public String minify(String json) {
     InputStream in = new ByteArrayInputStream(json.getBytes(StandardCharsets.UTF_8));
@@ -209,7 +209,7 @@ public class Minify {
    *    2. Delete currChar: copy nextChar to currChar, get the next character and save it to nextChar
    *    3. Delete nextChar: get the next character and save it to nextChar
    *
-   * This method essentially treads a string as a single character.  Also recognizes regular expressions if they are
+   * This method essentially treats a string as a single character.  Also recognizes regular expressions if they are
    * preceded by '(', ',', or '='.
    *
    * @param action The action to perform
