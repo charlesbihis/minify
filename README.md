@@ -18,7 +18,7 @@ Minify has a simple utility method for producing minified JSON:
 	 * spaces and line feeds will be removed.  The result will be returned.
 	 * 
 	 * @param json The JSON string for which to minify
-	 * @return A minified, yet identically functional, version of the input JSON string
+	 * @return A minified, yet functionally identical, version of the input JSON string
 	 */ 
 	public String minify(String json)
 
